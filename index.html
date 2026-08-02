@@ -609,7 +609,7 @@ width="45" height="45">
 
 
 
-  <!-- ======= Start Contact Section ======= -->
+ <!-- ======= Start Contact Section ======= -->
 
   <section id="contact" class="contact">
     <div class="container">
@@ -622,7 +622,8 @@ width="45" height="45">
             <i class="bx bx-share-alt"></i>
             <h3 style="color:#12d640;">Social Profiles</h3>
             <div class="social-links">
-              <a href="mailto:diazrichard@gmail.com" target="_blank" class="gmail"><i class="bx bxl-google"></i></a>
+              <!-- Updated the mailto address here -->
+              <a href="mailto:diazrichard98@gmail.com" target="_blank" class="gmail"><i class="bx bxl-google"></i></a>
               <a href="https://www.linkedin.com/in/richard-d-740b2a24b/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
               <a href="https://github.com/dsrichard97" target="_blank" class="github"><i class="bx bxl-github"></i></a>
               <!-- <a href="https://www.researchgate.net/profile/Aras-Guengoere" target="_blank" class="researchgate"><i class="bx bxl-researchgate"></i></a> -->
@@ -635,11 +636,14 @@ width="45" height="45">
           <div class="info-box">
             <i class="bx bx-envelope"></i>
             <h3 style="color:#12d640;">E&#8209;mail</h3>
-            <a href="mailto:diazrichard@gmail.com" target="_blank"> <p><i class="icofont-rounded-right"></i> diazrichard98@gmail.com</p> </a>
+            <!-- Updated the mailto address here as well -->
+            <a href="mailto:diazrichard98@gmail.com" target="_blank"> <p><i class="icofont-rounded-right"></i> diazrichard98@gmail.com</p> </a>
           </div>
         </div>
       </div>
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+      
+      <!-- Updated Formspree form -->
+      <form action="https://formspree.io/f/xaqrgvpy" method="POST" role="form" class="mt-4">
         <div class="row">
           <div class="col-md-6 form-group">
             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -654,17 +658,14 @@ width="45" height="45">
         <div class="form-group mt-3">
           <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
         </div>
-        <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
+        <div class="text-center mt-3">
+          <button type="submit" class="btn btn-primary" style="background: #12d640; border: 0; padding: 10px 24px; color: #fff; transition: 0.4s; border-radius: 4px;">Send Message</button>
         </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
       </form>
     </div>
   </section>
 
-  <!-- ======= End Contact Section ======= -->
+<!-- ======= End Contact Section ======= -->
 
 
 
